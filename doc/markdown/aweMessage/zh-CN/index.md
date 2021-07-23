@@ -23,19 +23,19 @@
     methods: {
       handleClick (type) {
         if(type=='info'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条普通消息'});
         }else if(type=='success'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条成功消息'});
         }else if(type=='warning'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条警告消息'});
           }else{
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条错误消息'});
           }
@@ -60,19 +60,19 @@
     methods: {
       handleClick (type) {
         if(type=='info'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条普通消息'});
         }else if(type=='success'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条成功消息'});
         }else if(type=='warning'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条警告消息'});
           }else{
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条错误消息'});
           }
