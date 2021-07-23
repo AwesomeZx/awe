@@ -1,10 +1,10 @@
-const path = require('path')
-const utils = require('./utils')
-const webpack = require('webpack')
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const VueLoaderPlugin = require('vue-loader/dist/plugin').default;
-const WebpackBar = require('webpackbar');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+import { resolve as _resolve } from 'path';
+import { assetsPath } from './utils';
+import { ProvidePlugin } from 'webpack';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import VueLoaderPlugin from 'vue-loader/dist/plugin';
+import WebpackBar from 'webpackbar';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 const babelConfig = {
   cacheDirectory: true,
   presets: [
@@ -18,47 +18,48 @@ const babelConfig = {
             '> 1%',
             'ie >= 9',
             'iOS >= 8',
-            'Android >= 4',
-          ],
-        },
-      },
+            'Android >= 4'
+          ]
+        }
+      }
     ],
-    '@babel/preset-typescript',
+    '@babel/preset-typescript'
   ],
   plugins: [
     [
       'babel-plugin-import',
       {
-        libraryName: 'ninecat',
+        libraryName: 'awe',
         libraryDirectory: '', // default: lib
-        style: true,
-      },
+        style: true
+      }
     ],
     ['@vue/babel-plugin-jsx', { mergeProps: false }],
     '@babel/plugin-proposal-optional-chaining',
     '@babel/plugin-transform-object-assign',
     '@babel/plugin-proposal-object-rest-spread',
     '@babel/plugin-proposal-export-default-from',
-    '@babel/plugin-proposal-class-properties',
-  ],
+    '@babel/plugin-proposal-class-properties'
+  ]
 };
 
-module.exports = (env = {}) => ({
+export default (env = {}) => ({
   mode: 'development',
   devtool: 'cheap-module-source-map',
   entry: {
     'awe-design': './src/index.ts'
   },
   output: {
-    path: path.resolve(__dirname, '../package'),
+    path: _resolve(__dirname, '../package'),
     publicPath: '/package/',
     library: 'awe-design',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
-    optimization: {
+  optimization: {
     minimize: false
   },
+  // eslint-disable-next-line no-dupe-keys
   optimization: {
     minimize: false
   },
@@ -80,7 +81,7 @@ module.exports = (env = {}) => ({
             }
           },
           {
-            loader: path.resolve(__dirname, './md-loader/index.js')
+            loader: _resolve(__dirname, './md-loader/index.js')
           }
         ]
       },
@@ -89,16 +90,16 @@ module.exports = (env = {}) => ({
         use: [
           {
             loader: 'babel-loader',
-            options: babelConfig,
+            options: babelConfig
           },
           {
             loader: 'ts-loader',
             options: {
-              transpileOnly: true,
-            },
-          },
+              transpileOnly: true
+            }
+          }
         ],
-        exclude: /node_modules/,
+        exclude: /node_modules/
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
@@ -106,7 +107,7 @@ module.exports = (env = {}) => ({
           loader: 'url-loader',
           options: {
             limit: 10000,
-            name: utils.assetsPath('img/[name].[hash:7].[ext]')
+            name: assetsPath('img/[name].[hash:7].[ext]')
           }
         }
       },
@@ -114,17 +115,17 @@ module.exports = (env = {}) => ({
         test: /\.(woff2?|eot|ttf|otf)$/,
         loader: 'file-loader',
         options: {
-            limit: 10000,
-            name: '[name].[hash:7].[ext]'
+          limit: 10000,
+          name: '[name].[hash:7].[ext]'
         }
-     },
+      },
       {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
         use: {
           loader: 'url-loader',
           options: {
             limit: 10000,
-            name: utils.assetsPath('media/[name].[hash:7].[ext]')
+            name: assetsPath('media/[name].[hash:7].[ext]')
           }
         }
       },
@@ -134,9 +135,9 @@ module.exports = (env = {}) => ({
           { loader: 'style-loader' },
           {
             loader: 'css-loader',
-            options: { sourceMap: true },
+            options: { sourceMap: true }
           }
-        ],
+        ]
       },
       {
         test: /\.scss$/,
@@ -144,19 +145,19 @@ module.exports = (env = {}) => ({
           { loader: 'style-loader' },
           {
             loader: 'css-loader',
-            options: { sourceMap: true },
+            options: { sourceMap: true }
           },
           {
-            loader: 'sass-loader',
-          },
-        ],
+            loader: 'sass-loader'
+          }
+        ]
       }
     ]
   },
   resolve: {
-    extensions: ['.ts','.js', '.vue', '.json', '.tsx'],
+    extensions: ['.ts', '.js', '.vue', '.json', '.tsx'],
     alias: {
-      'vue': '@vue/runtime-dom'
+      vue: '@vue/runtime-dom'
     }
   },
   plugins: [
@@ -166,13 +167,13 @@ module.exports = (env = {}) => ({
     new HtmlWebpackPlugin({
       template: './index.html',
       filename: 'index.html',
-      favicon:'./doc/favicon.ico',
-      inject: true,
+      favicon: '../doc/favicon.ico',
+      inject: true
     }),
     new VueLoaderPlugin(),
     new WebpackBar(),
-    new webpack.ProvidePlugin({
-      process: 'process/browser',
-    }),
-  ],
-})
+    new ProvidePlugin({
+      process: 'process/browser'
+    })
+  ]
+});

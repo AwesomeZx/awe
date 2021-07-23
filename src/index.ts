@@ -104,7 +104,7 @@ export {
   aweSidenav,
   aweSidenavItem,
   aweSubSidenav,
-  aweSteps,
+  aweSteps
   // aweStep,
   // aweCheckbox
 };

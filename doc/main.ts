@@ -1,7 +1,7 @@
 
 import { createApp } from 'vue';
 import App from './index.vue';
-import ninecat from '../src/index';
+import awe from '../src/index';
 import hljs from 'highlight.js/lib/highlight';
 import 'highlight.js/scss/github.scss';
 import demoBlock from './components/aweDemoBlock/index.vue';
@@ -9,10 +9,10 @@ import router from './router/index';
 
 const app = createApp(App);
 app
-  .use(ninecat)
+  .use(awe)
   .directive('highlight', function (el) {
     const blocks = el.querySelectorAll('pre code');
-    blocks.forEach((block) => {
+    blocks.forEach((block: any) => {
       hljs.highlightBlock(block);
     });
   })

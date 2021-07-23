@@ -1,6 +1,6 @@
-const path = require('path')
-const utils = require('./utils')
-const webpack = require('webpack')
+const path = require('path');
+const utils = require('./utils');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/dist/plugin').default;
 const WebpackBar = require('webpackbar');
@@ -18,29 +18,29 @@ const babelConfig = {
             '> 1%',
             'ie >= 9',
             'iOS >= 8',
-            'Android >= 4',
-          ],
-        },
-      },
+            'Android >= 4'
+          ]
+        }
+      }
     ],
-    '@babel/preset-typescript',
+    '@babel/preset-typescript'
   ],
   plugins: [
     [
       'babel-plugin-import',
       {
-        libraryName: 'ninecat',
+        libraryName: 'awe',
         libraryDirectory: '', // default: lib
-        style: true,
-      },
+        style: true
+      }
     ],
     ['@vue/babel-plugin-jsx', { mergeProps: false }],
     '@babel/plugin-proposal-optional-chaining',
     '@babel/plugin-transform-object-assign',
     '@babel/plugin-proposal-object-rest-spread',
     '@babel/plugin-proposal-export-default-from',
-    '@babel/plugin-proposal-class-properties',
-  ],
+    '@babel/plugin-proposal-class-properties'
+  ]
 };
 
 module.exports = () => ({
@@ -50,7 +50,7 @@ module.exports = () => ({
   output: {
     path: path.resolve(__dirname, '../docs'),
     publicPath: './',
-    filename: "main.js",
+    filename: 'main.js'
   },
   module: {
     rules: [
@@ -79,16 +79,16 @@ module.exports = () => ({
         use: [
           {
             loader: 'babel-loader',
-            options: babelConfig,
+            options: babelConfig
           },
           {
             loader: 'ts-loader',
             options: {
-              transpileOnly: true,
-            },
-          },
+              transpileOnly: true
+            }
+          }
         ],
-        exclude: /node_modules/,
+        exclude: /node_modules/
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
@@ -104,10 +104,10 @@ module.exports = () => ({
         test: /\.(woff2?|eot|ttf|otf)$/,
         loader: 'file-loader',
         options: {
-            limit: 10000,
-            name: '[name].[hash:7].[ext]'
+          limit: 10000,
+          name: '[name].[hash:7].[ext]'
         }
-     },
+      },
       {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
         use: {
@@ -131,35 +131,35 @@ module.exports = () => ({
           { loader: 'style-loader' },
           {
             loader: 'css-loader',
-            options: { sourceMap: true },
+            options: { sourceMap: true }
           },
           {
-            loader: 'sass-loader',
-          },
-        ],
+            loader: 'sass-loader'
+          }
+        ]
       }
     ]
   },
   resolve: {
-    extensions: ['.ts','.js', '.vue', '.json', '.tsx'],
+    extensions: ['.ts', '.js', '.vue', '.json', '.tsx'],
     alias: {
-      'vue': '@vue/runtime-dom'
+      vue: '@vue/runtime-dom'
     }
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: '[name].css',
+      filename: '[name].css'
     }),
     new HtmlWebpackPlugin({
       template: './doc/doc.html',
       filename: 'index.html',
-      favicon:'./doc/favicon.ico',
-      inject: true,
+      favicon: './doc/favicon.ico',
+      inject: true
     }),
     new VueLoaderPlugin(),
     new WebpackBar(),
     new webpack.ProvidePlugin({
-      process: 'process/browser',
-    }),
-  ],
-})
+      process: 'process/browser'
+    })
+  ]
+});
