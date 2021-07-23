@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://awe-design.github.io">
-    <img width="161" height="125" src="./doc/markdown/nAbout/img/logo.png/>
+    <img width="180" src="./doc/markdown/aweAbout/img/logo.png">
   </a>
 </p>
 
