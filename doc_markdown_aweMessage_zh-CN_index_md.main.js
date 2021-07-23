@@ -94,19 +94,19 @@ const _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVN
     methods: {
       handleClick (type) {
         if(type=='info'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条普通消息'});
         }else if(type=='success'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条成功消息'});
         }else if(type=='warning'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条警告消息'});
           }else{
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条错误消息'});
           }
@@ -172,19 +172,19 @@ const _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVN
     methods: {
       handleClick (type) {
         if(type=='info'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条普通消息'});
         }else if(type=='success'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条成功消息'});
         }else if(type=='warning'){
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条警告消息'});
           }else{
-            this.$nMessage({
+            this.$aweMessage({
             type,
             message:'这是一条错误消息'});
           }
