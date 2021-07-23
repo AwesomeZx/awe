@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://awesomezx.github.io/awe">
     <a href="https://awesomezx.github.io/awe">
-    <img width="120" src="./doc/markdown/aweAbout/img/logo.png">
+    <img width="180" src="./doc/markdown/aweAbout/img/logo.png">
   </a>
   </a>
 </p>
