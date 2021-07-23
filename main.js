@@ -27,13 +27,13 @@ const dataEntryString = localLang === 'en-US' ? 'Data Entry' : '数据录入';
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   headerConfig: {
     logo: {
-      href: 'https://awe-design.github.io',
+      href: 'https://awesomezx.github.io/awe',
       image: 'https://avatars3.githubusercontent.com/u/51054939?s=400&u=8d6342ba8bf5106086c26318ee290452501c6dff&v=4',
       title: 'Ninecat'
     },
     lang: 'zh-CN',
     versions: ['1.0.0', '1.1.0'],
-    githubLink: 'https://github.com/awe-design/awe-design',
+    githubLink: 'https://github.com/awesomezx/awe',
     simulators: []
   },
   navConfig: [
@@ -47,9 +47,9 @@ const dataEntryString = localLang === 'en-US' ? 'Data Entry' : '数据录入';
               title: aboutString,
               component: () => {
                 if (localLang === 'en-US') {
-                  return Promise.all(/*! import() */[__webpack_require__.e("doc_markdown_aweAbout_img_chrome_48x48_png-doc_markdown_aweAbout_img_edge_48x48_png-doc_markd-7b6722"), __webpack_require__.e("doc_markdown_aweAbout_en-US_index_md")]).then(__webpack_require__.bind(__webpack_require__, /*! ./markdown/aweAbout/en-US/index.md */ "./doc/markdown/aweAbout/en-US/index.md"));
+                  return Promise.all(/*! import() */[__webpack_require__.e("doc_markdown_aweAbout_img_chrome_48x48_png-doc_markdown_aweAbout_img_edge_48x48_png-doc_markd-12b6fd"), __webpack_require__.e("doc_markdown_aweAbout_en-US_index_md")]).then(__webpack_require__.bind(__webpack_require__, /*! ./markdown/aweAbout/en-US/index.md */ "./doc/markdown/aweAbout/en-US/index.md"));
                 } else {
-                  return Promise.all(/*! import() */[__webpack_require__.e("doc_markdown_aweAbout_img_chrome_48x48_png-doc_markdown_aweAbout_img_edge_48x48_png-doc_markd-7b6722"), __webpack_require__.e("doc_markdown_aweAbout_zh-CN_index_md")]).then(__webpack_require__.bind(__webpack_require__, /*! ./markdown/aweAbout/zh-CN/index.md */ "./doc/markdown/aweAbout/zh-CN/index.md"));
+                  return Promise.all(/*! import() */[__webpack_require__.e("doc_markdown_aweAbout_img_chrome_48x48_png-doc_markdown_aweAbout_img_edge_48x48_png-doc_markd-12b6fd"), __webpack_require__.e("doc_markdown_aweAbout_zh-CN_index_md")]).then(__webpack_require__.bind(__webpack_require__, /*! ./markdown/aweAbout/zh-CN/index.md */ "./doc/markdown/aweAbout/zh-CN/index.md"));
                 }
               }
             }
@@ -379,9 +379,9 @@ const commonRoutes = [
     },
     component: () => {
       if (localLang === 'en-US') {
-        return Promise.all(/*! import() */[__webpack_require__.e("doc_markdown_aweAbout_img_chrome_48x48_png-doc_markdown_aweAbout_img_edge_48x48_png-doc_markd-7b6722"), __webpack_require__.e("doc_markdown_aweAbout_en-US_index_md")]).then(__webpack_require__.bind(__webpack_require__, /*! ../markdown/aweAbout/en-US/index.md */ "./doc/markdown/aweAbout/en-US/index.md"));
+        return Promise.all(/*! import() */[__webpack_require__.e("doc_markdown_aweAbout_img_chrome_48x48_png-doc_markdown_aweAbout_img_edge_48x48_png-doc_markd-12b6fd"), __webpack_require__.e("doc_markdown_aweAbout_en-US_index_md")]).then(__webpack_require__.bind(__webpack_require__, /*! ../markdown/aweAbout/en-US/index.md */ "./doc/markdown/aweAbout/en-US/index.md"));
       } else {
-        return Promise.all(/*! import() */[__webpack_require__.e("doc_markdown_aweAbout_img_chrome_48x48_png-doc_markdown_aweAbout_img_edge_48x48_png-doc_markd-7b6722"), __webpack_require__.e("doc_markdown_aweAbout_zh-CN_index_md")]).then(__webpack_require__.bind(__webpack_require__, /*! ../markdown/aweAbout/zh-CN/index.md */ "./doc/markdown/aweAbout/zh-CN/index.md"));
+        return Promise.all(/*! import() */[__webpack_require__.e("doc_markdown_aweAbout_img_chrome_48x48_png-doc_markdown_aweAbout_img_edge_48x48_png-doc_markd-12b6fd"), __webpack_require__.e("doc_markdown_aweAbout_zh-CN_index_md")]).then(__webpack_require__.bind(__webpack_require__, /*! ../markdown/aweAbout/zh-CN/index.md */ "./doc/markdown/aweAbout/zh-CN/index.md"));
       }
     }
   }
@@ -21230,7 +21230,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".awedoc-header {\n  width: 100%;\n  box-shadow: 0 4px 12px #ebedf0;\n}\n.awedoc-header .top {\n    display: flex;\n    align-items: center;\n    background-color: #404040;\n    padding: 0 30px;\n    height: 60px;\n    line-height: 60px;\n}\n.awedoc-header .top .logo {\n      margin-top: 10px;\n      line-height: 0.5;\n      display: block;\n      text-decoration: none;\n}\n.awedoc-header .top .logo div {\n        color: #fff;\n        font-size: 22px;\n        height: 32px;\n        vertical-align: middle;\n        display: inline-block;\n}\n.awedoc-header .top .awedoc-search {\n      height: 60px;\n      width: 200px;\n      border: none;\n      color: #fff;\n      font-size: 14px;\n      background-color: transparent;\n}\n.awedoc-header .top .awedoc-search:focus {\n        outline: none;\n}\n.awedoc-header .top .awedoc-search::placeholder {\n        opacity: 0.7;\n        color: #fff;\n}\n.awedoc-header .top .algolia-autocomplete {\n      left: 140px;\n}\n.awedoc-header .top .nav {\n      flex: 1;\n      text-align: right;\n}\n.awedoc-header .top .nav li {\n        display: inline-block;\n        position: relative;\n        vertical-align: middle;\n}\n.awedoc-header .top .nav :hover {\n        background: none;\n}\n.awedoc-header .top .nav .item {\n        margin: 0 10px;\n}\n.awedoc-header .top .nav .cube {\n        padding-right: 20px;\n        width: 50px;\n        position: relative;\n        cursor: pointer;\n        padding: 0 7px;\n        font-size: 14px;\n        line-height: 24px;\n        display: block;\n        border-radius: 3px;\n        text-align: center;\n        color: #fff;\n        border: 1px solid rgba(255, 255, 255, 0.7);\n        font-family: Helvetica Neue,Arial,sans-serif;\n        -webkit-transition: .3s ease-in-out;\n        transition: .3s ease-in-out;\n}\n.awedoc-header .top .nav .version:after {\n        position: absolute;\n        content: \"\";\n        top: 7px;\n        right: 7px;\n        width: 5px;\n        height: 5px;\n        border: 1px solid;\n        color: rgba(255, 255, 255, 0.9);\n        border-color: transparent transparent currentColor currentColor;\n        -webkit-transform: rotate(-45deg);\n        transform: rotate(-45deg);\n}\n.awedoc-header .top .nav .github-icon {\n        fill: #fff;\n        display: block;\n        transition: 0.3s ease-in-out;\n}\n.awedoc-header .top .nav .awedoc-dropdown .enter,\n      .awedoc-header .top .nav .awedoc-dropdown .leave-active {\n        opacity: 0;\n        transform: scaleY(0);\n}\n", "",{"version":3,"sources":["webpack://./doc/components/aweHeader/index.vue"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,8BAA8B;AAChC;AACA;IACI,aAAa;IACb,mBAAmB;IACnB,yBAAyB;IACzB,eAAe;IACf,YAAY;IACZ,iBAAiB;AACrB;AACA;MACM,gBAAgB;MAChB,gBAAgB;MAChB,cAAc;MACd,qBAAqB;AAC3B;AACA;QACQ,WAAW;QACX,eAAe;QACf,YAAY;QACZ,sBAAsB;QACtB,qBAAqB;AAC7B;AACA;MACM,YAAY;MACZ,YAAY;MACZ,YAAY;MACZ,WAAW;MACX,eAAe;MACf,6BAA6B;AACnC;AACA;QACQ,aAAa;AACrB;AACA;QACQ,YAAY;QACZ,WAAW;AACnB;AACA;MACM,WAAW;AACjB;AACA;MACM,OAAO;MACP,iBAAiB;AACvB;AACA;QACQ,qBAAqB;QACrB,kBAAkB;QAClB,sBAAsB;AAC9B;AACA;QACQ,gBAAgB;AACxB;AACA;QACQ,cAAc;AACtB;AACA;QACQ,mBAAmB;QACnB,WAAW;QACX,kBAAkB;QAClB,eAAe;QACf,cAAc;QACd,eAAe;QACf,iBAAiB;QACjB,cAAc;QACd,kBAAkB;QAClB,kBAAkB;QAClB,WAAW;QACX,0CAA0C;QAC1C,4CAA4C;QAC5C,mCAAmC;QACnC,2BAA2B;AACnC;AACA;QACQ,kBAAkB;QAClB,WAAW;QACX,QAAQ;QACR,UAAU;QACV,UAAU;QACV,WAAW;QACX,iBAAiB;QACjB,+BAA+B;QAC/B,+DAA+D;QAC/D,iCAAiC;QACjC,yBAAyB;AACjC;AACA;QACQ,UAAU;QACV,cAAc;QACd,4BAA4B;AACpC;AACA;;QAEQ,UAAU;QACV,oBAAoB;AAC5B","sourcesContent":[".awedoc-header {\n  width: 100%;\n  box-shadow: 0 4px 12px #ebedf0;\n}\n.awedoc-header .top {\n    display: flex;\n    align-items: center;\n    background-color: #404040;\n    padding: 0 30px;\n    height: 60px;\n    line-height: 60px;\n}\n.awedoc-header .top .logo {\n      margin-top: 10px;\n      line-height: 0.5;\n      display: block;\n      text-decoration: none;\n}\n.awedoc-header .top .logo div {\n        color: #fff;\n        font-size: 22px;\n        height: 32px;\n        vertical-align: middle;\n        display: inline-block;\n}\n.awedoc-header .top .awedoc-search {\n      height: 60px;\n      width: 200px;\n      border: none;\n      color: #fff;\n      font-size: 14px;\n      background-color: transparent;\n}\n.awedoc-header .top .awedoc-search:focus {\n        outline: none;\n}\n.awedoc-header .top .awedoc-search::placeholder {\n        opacity: 0.7;\n        color: #fff;\n}\n.awedoc-header .top .algolia-autocomplete {\n      left: 140px;\n}\n.awedoc-header .top .nav {\n      flex: 1;\n      text-align: right;\n}\n.awedoc-header .top .nav li {\n        display: inline-block;\n        position: relative;\n        vertical-align: middle;\n}\n.awedoc-header .top .nav :hover {\n        background: none;\n}\n.awedoc-header .top .nav .item {\n        margin: 0 10px;\n}\n.awedoc-header .top .nav .cube {\n        padding-right: 20px;\n        width: 50px;\n        position: relative;\n        cursor: pointer;\n        padding: 0 7px;\n        font-size: 14px;\n        line-height: 24px;\n        display: block;\n        border-radius: 3px;\n        text-align: center;\n        color: #fff;\n        border: 1px solid rgba(255, 255, 255, 0.7);\n        font-family: Helvetica Neue,Arial,sans-serif;\n        -webkit-transition: .3s ease-in-out;\n        transition: .3s ease-in-out;\n}\n.awedoc-header .top .nav .version:after {\n        position: absolute;\n        content: \"\";\n        top: 7px;\n        right: 7px;\n        width: 5px;\n        height: 5px;\n        border: 1px solid;\n        color: rgba(255, 255, 255, 0.9);\n        border-color: transparent transparent currentColor currentColor;\n        -webkit-transform: rotate(-45deg);\n        transform: rotate(-45deg);\n}\n.awedoc-header .top .nav .github-icon {\n        fill: #fff;\n        display: block;\n        transition: 0.3s ease-in-out;\n}\n.awedoc-header .top .nav .awedoc-dropdown .enter,\n      .awedoc-header .top .nav .awedoc-dropdown .leave-active {\n        opacity: 0;\n        transform: scaleY(0);\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".awedoc-header {\n  width: 100%;\n  box-shadow: 0 4px 12px #ebedf0;\n}\n.awedoc-header .top {\n    display: flex;\n    align-items: center;\n    background-color: #fff;\n    z-index: 3;\n    padding: 0 30px;\n    height: 60px;\n    line-height: 60px;\n}\n.awedoc-header .top .logo {\n      margin-top: 10px;\n      line-height: 0.5;\n      display: block;\n      text-decoration: none;\n}\n.awedoc-header .top .logo div {\n        color: #fff;\n        font-size: 22px;\n        height: 32px;\n        vertical-align: middle;\n        display: inline-block;\n}\n.awedoc-header .top .awedoc-search {\n      height: 60px;\n      width: 200px;\n      border: none;\n      color: #fff;\n      font-size: 14px;\n      background-color: transparent;\n}\n.awedoc-header .top .awedoc-search:focus {\n        outline: none;\n}\n.awedoc-header .top .awedoc-search::placeholder {\n        opacity: 0.7;\n        color: #fff;\n}\n.awedoc-header .top .algolia-autocomplete {\n      left: 140px;\n}\n.awedoc-header .top .nav {\n      flex: 1;\n      text-align: right;\n}\n.awedoc-header .top .nav li {\n        display: inline-block;\n        position: relative;\n        vertical-align: middle;\n}\n.awedoc-header .top .nav :hover {\n        background: none;\n}\n.awedoc-header .top .nav .item {\n        margin: 0 10px;\n}\n.awedoc-header .top .nav .cube {\n        padding-right: 20px;\n        width: 50px;\n        position: relative;\n        cursor: pointer;\n        padding: 0 7px;\n        font-size: 14px;\n        line-height: 24px;\n        display: block;\n        border-radius: 3px;\n        text-align: center;\n        color: #fff;\n        border: 1px solid rgba(255, 255, 255, 0.7);\n        font-family: Helvetica Neue,Arial,sans-serif;\n        -webkit-transition: .3s ease-in-out;\n        transition: .3s ease-in-out;\n}\n.awedoc-header .top .nav .version:after {\n        position: absolute;\n        content: \"\";\n        top: 7px;\n        right: 7px;\n        width: 5px;\n        height: 5px;\n        border: 1px solid;\n        color: rgba(255, 255, 255, 0.9);\n        border-color: transparent transparent currentColor currentColor;\n        -webkit-transform: rotate(-45deg);\n        transform: rotate(-45deg);\n}\n.awedoc-header .top .nav .github-icon {\n        fill: #fff;\n        display: block;\n        transition: 0.3s ease-in-out;\n}\n.awedoc-header .top .nav .awedoc-dropdown .enter,\n      .awedoc-header .top .nav .awedoc-dropdown .leave-active {\n        opacity: 0;\n        transform: scaleY(0);\n}\n", "",{"version":3,"sources":["webpack://./doc/components/aweHeader/index.vue"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,8BAA8B;AAChC;AACA;IACI,aAAa;IACb,mBAAmB;IACnB,sBAAsB;IACtB,UAAU;IACV,eAAe;IACf,YAAY;IACZ,iBAAiB;AACrB;AACA;MACM,gBAAgB;MAChB,gBAAgB;MAChB,cAAc;MACd,qBAAqB;AAC3B;AACA;QACQ,WAAW;QACX,eAAe;QACf,YAAY;QACZ,sBAAsB;QACtB,qBAAqB;AAC7B;AACA;MACM,YAAY;MACZ,YAAY;MACZ,YAAY;MACZ,WAAW;MACX,eAAe;MACf,6BAA6B;AACnC;AACA;QACQ,aAAa;AACrB;AACA;QACQ,YAAY;QACZ,WAAW;AACnB;AACA;MACM,WAAW;AACjB;AACA;MACM,OAAO;MACP,iBAAiB;AACvB;AACA;QACQ,qBAAqB;QACrB,kBAAkB;QAClB,sBAAsB;AAC9B;AACA;QACQ,gBAAgB;AACxB;AACA;QACQ,cAAc;AACtB;AACA;QACQ,mBAAmB;QACnB,WAAW;QACX,kBAAkB;QAClB,eAAe;QACf,cAAc;QACd,eAAe;QACf,iBAAiB;QACjB,cAAc;QACd,kBAAkB;QAClB,kBAAkB;QAClB,WAAW;QACX,0CAA0C;QAC1C,4CAA4C;QAC5C,mCAAmC;QACnC,2BAA2B;AACnC;AACA;QACQ,kBAAkB;QAClB,WAAW;QACX,QAAQ;QACR,UAAU;QACV,UAAU;QACV,WAAW;QACX,iBAAiB;QACjB,+BAA+B;QAC/B,+DAA+D;QAC/D,iCAAiC;QACjC,yBAAyB;AACjC;AACA;QACQ,UAAU;QACV,cAAc;QACd,4BAA4B;AACpC;AACA;;QAEQ,UAAU;QACV,oBAAoB;AAC5B","sourcesContent":[".awedoc-header {\n  width: 100%;\n  box-shadow: 0 4px 12px #ebedf0;\n}\n.awedoc-header .top {\n    display: flex;\n    align-items: center;\n    background-color: #fff;\n    z-index: 3;\n    padding: 0 30px;\n    height: 60px;\n    line-height: 60px;\n}\n.awedoc-header .top .logo {\n      margin-top: 10px;\n      line-height: 0.5;\n      display: block;\n      text-decoration: none;\n}\n.awedoc-header .top .logo div {\n        color: #fff;\n        font-size: 22px;\n        height: 32px;\n        vertical-align: middle;\n        display: inline-block;\n}\n.awedoc-header .top .awedoc-search {\n      height: 60px;\n      width: 200px;\n      border: none;\n      color: #fff;\n      font-size: 14px;\n      background-color: transparent;\n}\n.awedoc-header .top .awedoc-search:focus {\n        outline: none;\n}\n.awedoc-header .top .awedoc-search::placeholder {\n        opacity: 0.7;\n        color: #fff;\n}\n.awedoc-header .top .algolia-autocomplete {\n      left: 140px;\n}\n.awedoc-header .top .nav {\n      flex: 1;\n      text-align: right;\n}\n.awedoc-header .top .nav li {\n        display: inline-block;\n        position: relative;\n        vertical-align: middle;\n}\n.awedoc-header .top .nav :hover {\n        background: none;\n}\n.awedoc-header .top .nav .item {\n        margin: 0 10px;\n}\n.awedoc-header .top .nav .cube {\n        padding-right: 20px;\n        width: 50px;\n        position: relative;\n        cursor: pointer;\n        padding: 0 7px;\n        font-size: 14px;\n        line-height: 24px;\n        display: block;\n        border-radius: 3px;\n        text-align: center;\n        color: #fff;\n        border: 1px solid rgba(255, 255, 255, 0.7);\n        font-family: Helvetica Neue,Arial,sans-serif;\n        -webkit-transition: .3s ease-in-out;\n        transition: .3s ease-in-out;\n}\n.awedoc-header .top .nav .version:after {\n        position: absolute;\n        content: \"\";\n        top: 7px;\n        right: 7px;\n        width: 5px;\n        height: 5px;\n        border: 1px solid;\n        color: rgba(255, 255, 255, 0.9);\n        border-color: transparent transparent currentColor currentColor;\n        -webkit-transform: rotate(-45deg);\n        transform: rotate(-45deg);\n}\n.awedoc-header .top .nav .github-icon {\n        fill: #fff;\n        display: block;\n        transition: 0.3s ease-in-out;\n}\n.awedoc-header .top .nav .awedoc-dropdown .enter,\n      .awedoc-header .top .nav .awedoc-dropdown .leave-active {\n        opacity: 0;\n        transform: scaleY(0);\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -21284,7 +21284,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".awedoc-nav[data-v-edf45eca] {\n  left: 0;\n  top: 60px;\n  bottom: 0;\n  z-index: 1;\n  position: fixed;\n  overflow-y: scroll;\n  padding: 25px 0 75px;\n  background-color: #fff;\n  min-width: 220px;\n  max-width: 220px;\n  box-shadow: 0 8px 12px #ebedf0;\n  border-right: 1px solid #f1f4f8;\n}\n.awedoc-nav[data-v-edf45eca]::-webkit-scrollbar {\n    height: 6px;\n    width: 6px;\n    background-color: transparent;\n}\n.awedoc-nav[data-v-edf45eca]::-webkit-scrollbar-thumb {\n    border-radius: 6px;\n    background-color: transparent;\n}\n.awedoc-nav[data-v-edf45eca]:hover::-webkit-scrollbar-thumb {\n    background-color: rgba(69, 90, 100, 0.2);\n}\n.awedoc-nav .item a[data-v-edf45eca], .awedoc-nav .subitem a[data-v-edf45eca] {\n    margin: 0;\n    display: block;\n    color: #455a64;\n    font-size: 18px;\n    padding: 10px 10px 10px 30px;\n    line-height: 24px;\n    transition: all .3s;\n    text-decoration: none;\n}\n.awedoc-nav .item a.active[data-v-edf45eca], .awedoc-nav .subitem a.active[data-v-edf45eca] {\n      color: #1989fa;\n}\n.awedoc-nav .subitem a[data-v-edf45eca] {\n    font-size: 14px;\n}\n.awedoc-nav .subitem a[data-v-edf45eca]:hover {\n      color: #1989fa;\n}\n.awedoc-nav .subitem span[data-v-edf45eca] {\n    font-size: 14px;\n}\n.awedoc-nav .group-title[data-v-edf45eca] {\n    font-size: 16px;\n    line-height: 40px;\n    padding-left: 30px;\n    color: rgba(69, 90, 100, 0.6);\n}\n@media (max-width: 1300px) {\n.awedoc-nav[data-v-edf45eca] {\n      min-width: 220px;\n      max-width: 220px;\n}\n.awedoc-nav .item a[data-v-edf45eca],\n      .awedoc-nav .subitem a[data-v-edf45eca] {\n        line-height: 22px;\n}\n.awedoc-nav .subitem a[data-v-edf45eca] {\n        font-size: 13px;\n}\n}\n", "",{"version":3,"sources":["webpack://./doc/components/aweNav/index.vue"],"names":[],"mappings":"AAAA;EACE,OAAO;EACP,SAAS;EACT,SAAS;EACT,UAAU;EACV,eAAe;EACf,kBAAkB;EAClB,oBAAoB;EACpB,sBAAsB;EACtB,gBAAgB;EAChB,gBAAgB;EAChB,8BAA8B;EAC9B,+BAA+B;AACjC;AACA;IACI,WAAW;IACX,UAAU;IACV,6BAA6B;AACjC;AACA;IACI,kBAAkB;IAClB,6BAA6B;AACjC;AACA;IACI,wCAAwC;AAC5C;AACA;IACI,SAAS;IACT,cAAc;IACd,cAAc;IACd,eAAe;IACf,4BAA4B;IAC5B,iBAAiB;IACjB,mBAAmB;IACnB,qBAAqB;AACzB;AACA;MACM,cAAc;AACpB;AACA;IACI,eAAe;AACnB;AACA;MACM,cAAc;AACpB;AACA;IACI,eAAe;AACnB;AACA;IACI,eAAe;IACf,iBAAiB;IACjB,kBAAkB;IAClB,6BAA6B;AACjC;AACA;AACA;MACM,gBAAgB;MAChB,gBAAgB;AACtB;AACA;;QAEQ,iBAAiB;AACzB;AACA;QACQ,eAAe;AACvB;AACA","sourcesContent":[".awedoc-nav[data-v-edf45eca] {\n  left: 0;\n  top: 60px;\n  bottom: 0;\n  z-index: 1;\n  position: fixed;\n  overflow-y: scroll;\n  padding: 25px 0 75px;\n  background-color: #fff;\n  min-width: 220px;\n  max-width: 220px;\n  box-shadow: 0 8px 12px #ebedf0;\n  border-right: 1px solid #f1f4f8;\n}\n.awedoc-nav[data-v-edf45eca]::-webkit-scrollbar {\n    height: 6px;\n    width: 6px;\n    background-color: transparent;\n}\n.awedoc-nav[data-v-edf45eca]::-webkit-scrollbar-thumb {\n    border-radius: 6px;\n    background-color: transparent;\n}\n.awedoc-nav[data-v-edf45eca]:hover::-webkit-scrollbar-thumb {\n    background-color: rgba(69, 90, 100, 0.2);\n}\n.awedoc-nav .item a[data-v-edf45eca], .awedoc-nav .subitem a[data-v-edf45eca] {\n    margin: 0;\n    display: block;\n    color: #455a64;\n    font-size: 18px;\n    padding: 10px 10px 10px 30px;\n    line-height: 24px;\n    transition: all .3s;\n    text-decoration: none;\n}\n.awedoc-nav .item a.active[data-v-edf45eca], .awedoc-nav .subitem a.active[data-v-edf45eca] {\n      color: #1989fa;\n}\n.awedoc-nav .subitem a[data-v-edf45eca] {\n    font-size: 14px;\n}\n.awedoc-nav .subitem a[data-v-edf45eca]:hover {\n      color: #1989fa;\n}\n.awedoc-nav .subitem span[data-v-edf45eca] {\n    font-size: 14px;\n}\n.awedoc-nav .group-title[data-v-edf45eca] {\n    font-size: 16px;\n    line-height: 40px;\n    padding-left: 30px;\n    color: rgba(69, 90, 100, 0.6);\n}\n@media (max-width: 1300px) {\n.awedoc-nav[data-v-edf45eca] {\n      min-width: 220px;\n      max-width: 220px;\n}\n.awedoc-nav .item a[data-v-edf45eca],\n      .awedoc-nav .subitem a[data-v-edf45eca] {\n        line-height: 22px;\n}\n.awedoc-nav .subitem a[data-v-edf45eca] {\n        font-size: 13px;\n}\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".awedoc-nav[data-v-edf45eca] {\n  margin-top: 10px;\n  top: 0;\n  bottom: 0;\n  z-index: 1;\n  position: fixed;\n  overflow-y: scroll;\n  padding: 25px 0 75px;\n  background-color: #fff;\n  min-width: 220px;\n  max-width: 220px;\n  box-shadow: 0 8px 12px #ebedf0;\n  border-right: 1px solid #f1f4f8;\n}\n.awedoc-nav[data-v-edf45eca]::-webkit-scrollbar {\n    height: 6px;\n    width: 6px;\n    background-color: transparent;\n}\n.awedoc-nav[data-v-edf45eca]::-webkit-scrollbar-thumb {\n    border-radius: 6px;\n    background-color: transparent;\n}\n.awedoc-nav[data-v-edf45eca]:hover::-webkit-scrollbar-thumb {\n    background-color: rgba(69, 90, 100, 0.2);\n}\n.awedoc-nav .item a[data-v-edf45eca], .awedoc-nav .subitem a[data-v-edf45eca] {\n    margin: 0;\n    display: block;\n    color: #455a64;\n    font-size: 18px;\n    padding: 10px 10px 10px 30px;\n    line-height: 24px;\n    transition: all .3s;\n    text-decoration: none;\n}\n.awedoc-nav .item a.active[data-v-edf45eca], .awedoc-nav .subitem a.active[data-v-edf45eca] {\n      color: #1989fa;\n}\n.awedoc-nav .subitem a[data-v-edf45eca] {\n    font-size: 14px;\n}\n.awedoc-nav .subitem a[data-v-edf45eca]:hover {\n      color: #1989fa;\n}\n.awedoc-nav .subitem span[data-v-edf45eca] {\n    font-size: 14px;\n}\n.awedoc-nav .group-title[data-v-edf45eca] {\n    font-size: 16px;\n    line-height: 40px;\n    padding-left: 30px;\n    color: rgba(69, 90, 100, 0.6);\n}\n@media (max-width: 1300px) {\n.awedoc-nav[data-v-edf45eca] {\n      min-width: 220px;\n      max-width: 220px;\n}\n.awedoc-nav .item a[data-v-edf45eca],\n      .awedoc-nav .subitem a[data-v-edf45eca] {\n        line-height: 22px;\n}\n.awedoc-nav .subitem a[data-v-edf45eca] {\n        font-size: 13px;\n}\n}\n", "",{"version":3,"sources":["webpack://./doc/components/aweNav/index.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,MAAM;EACN,SAAS;EACT,UAAU;EACV,eAAe;EACf,kBAAkB;EAClB,oBAAoB;EACpB,sBAAsB;EACtB,gBAAgB;EAChB,gBAAgB;EAChB,8BAA8B;EAC9B,+BAA+B;AACjC;AACA;IACI,WAAW;IACX,UAAU;IACV,6BAA6B;AACjC;AACA;IACI,kBAAkB;IAClB,6BAA6B;AACjC;AACA;IACI,wCAAwC;AAC5C;AACA;IACI,SAAS;IACT,cAAc;IACd,cAAc;IACd,eAAe;IACf,4BAA4B;IAC5B,iBAAiB;IACjB,mBAAmB;IACnB,qBAAqB;AACzB;AACA;MACM,cAAc;AACpB;AACA;IACI,eAAe;AACnB;AACA;MACM,cAAc;AACpB;AACA;IACI,eAAe;AACnB;AACA;IACI,eAAe;IACf,iBAAiB;IACjB,kBAAkB;IAClB,6BAA6B;AACjC;AACA;AACA;MACM,gBAAgB;MAChB,gBAAgB;AACtB;AACA;;QAEQ,iBAAiB;AACzB;AACA;QACQ,eAAe;AACvB;AACA","sourcesContent":[".awedoc-nav[data-v-edf45eca] {\n  margin-top: 10px;\n  top: 0;\n  bottom: 0;\n  z-index: 1;\n  position: fixed;\n  overflow-y: scroll;\n  padding: 25px 0 75px;\n  background-color: #fff;\n  min-width: 220px;\n  max-width: 220px;\n  box-shadow: 0 8px 12px #ebedf0;\n  border-right: 1px solid #f1f4f8;\n}\n.awedoc-nav[data-v-edf45eca]::-webkit-scrollbar {\n    height: 6px;\n    width: 6px;\n    background-color: transparent;\n}\n.awedoc-nav[data-v-edf45eca]::-webkit-scrollbar-thumb {\n    border-radius: 6px;\n    background-color: transparent;\n}\n.awedoc-nav[data-v-edf45eca]:hover::-webkit-scrollbar-thumb {\n    background-color: rgba(69, 90, 100, 0.2);\n}\n.awedoc-nav .item a[data-v-edf45eca], .awedoc-nav .subitem a[data-v-edf45eca] {\n    margin: 0;\n    display: block;\n    color: #455a64;\n    font-size: 18px;\n    padding: 10px 10px 10px 30px;\n    line-height: 24px;\n    transition: all .3s;\n    text-decoration: none;\n}\n.awedoc-nav .item a.active[data-v-edf45eca], .awedoc-nav .subitem a.active[data-v-edf45eca] {\n      color: #1989fa;\n}\n.awedoc-nav .subitem a[data-v-edf45eca] {\n    font-size: 14px;\n}\n.awedoc-nav .subitem a[data-v-edf45eca]:hover {\n      color: #1989fa;\n}\n.awedoc-nav .subitem span[data-v-edf45eca] {\n    font-size: 14px;\n}\n.awedoc-nav .group-title[data-v-edf45eca] {\n    font-size: 16px;\n    line-height: 40px;\n    padding-left: 30px;\n    color: rgba(69, 90, 100, 0.6);\n}\n@media (max-width: 1300px) {\n.awedoc-nav[data-v-edf45eca] {\n      min-width: 220px;\n      max-width: 220px;\n}\n.awedoc-nav .item a[data-v-edf45eca],\n      .awedoc-nav .subitem a[data-v-edf45eca] {\n        line-height: 22px;\n}\n.awedoc-nav .subitem a[data-v-edf45eca] {\n        font-size: 13px;\n}\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -74841,6 +74841,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./doc/markdown/aweAbout/img/logo.png":
+/*!********************************************!*\
+  !*** ./doc/markdown/aweAbout/img/logo.png ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/img/logo.1895ef1.png");
+
+/***/ }),
+
 /***/ "./doc/components/aweContainer/index.vue":
 /*!***********************************************!*\
   !*** ./doc/components/aweContainer/index.vue ***!
@@ -74883,7 +74898,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: 'NContainer',
+  name: 'AweContainer',
   props: {
     hasSimulator: Boolean
   },
@@ -74897,7 +74912,7 @@ __webpack_require__.r(__webpack_exports__);
     },
     currentGithubUrl () {
       const lang = sessionStorage.getItem('lang');
-      return `https://github.com/ninecat-ui/ninecat-ui/tree/master/doc/markdown/${this.currentPage}/${lang}/index.md`;
+      return `https://github.com/awe-design/awe/tree/master/doc/markdown/${this.currentPage}/${lang}/index.md`;
     }
   }
 });
@@ -74954,7 +74969,7 @@ __webpack_require__.r(__webpack_exports__);
   name: 'DemoBlock',
   data: function () {
     return {
-      metaShow: false,
+      metaShow: true,
       hovering: false
     };
   },
@@ -75312,7 +75327,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'App',
-  components: { aweHeader, aweaweav, aweContainer },
+  components: { aweHeader: _components_aweHeader__WEBPACK_IMPORTED_MODULE_0__.default, aweNav: _components_aweNav__WEBPACK_IMPORTED_MODULE_1__.default, aweContainer: _components_aweContainer__WEBPACK_IMPORTED_MODULE_2__.default },
   data: function () {
     return {
       config: _doc_config__WEBPACK_IMPORTED_MODULE_3__.default
@@ -75952,7 +75967,7 @@ const render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $optio
           [vue__WEBPACK_IMPORTED_MODULE_1__.vShow, _ctx.hovering]
         ]),
         (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Todo "),
-        (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <span\n          v-show=\"hovering\"\n          class=\"demo-button\"\n        >\n          <n-button\n            type=\"link\"\n            size=\"sm\"\n          >\n            在线运行\n          </n-button>\n        </span> ")
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <span\n          v-show=\"hovering\"\n          class=\"demo-button\"\n        >\n          <awe-button\n            type=\"link\"\n            size=\"sm\"\n          >\n            在线运行\n          </awe-button>\n        </span> ")
       ])
     ], 512 /* NEED_PATCH */)
   ], 32 /* HYDRATE_EVENTS */))
@@ -75971,92 +75986,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js");
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/@vue/shared/dist/shared.esm-bundler.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js");
+/* harmony import */ var _markdown_aweAbout_img_logo_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../markdown/aweAbout/img/logo.png */ "./doc/markdown/aweAbout/img/logo.png");
+
+
 
 
 const _hoisted_1 = { class: "awedoc-header" }
 const _hoisted_2 = { class: "top" }
-const _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("svg", {
-  t: "1585388535760",
-  class: "icon",
-  viewBox: "0 0 1325 1024",
-  version: "1.1",
-  xmlns: "http://www.w3.org/2000/svg",
-  "p-id": "2864",
-  width: "32",
-  height: "32"
-}, [
-  /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
-    d: "M553.714266 853.732863c-45.796784-70.886962-91.420532-141.889281-137.563388-212.545528-5.24875-7.959643-0.8075-12.227857 2.710893-17.591964Q526.836053 461.518591 635.041049 299.268776c48.79607-73.021069 96.438568-146.849638 146.907316-218.601778C820.016221 26.5645 874.695505 0.090036 941.083538 0.090036h371.796058c3.345357 0 6.690714 0.288393 10.036071 0.461429-3.114643 11.535714-11.881785 19.610714-19.379999 27.628035-40.374999 43.54732-79.884819 88.248211-119.683031 132.660709Q1113.196389 239.398421 1042.482463 318.187346C1012.431928 351.92931 981.919965 385.036808 951.696395 418.605736Q893.556397 483.321091 835.35872 548.036445c-29.41607 32.876785-59.178212 65.522855-88.709639 98.053568q-46.142856 51.391605-92.285711 102.84089c-28.839285 32.184642-58.082319 63.965533-86.517854 96.265532-3.63375 4.0375-7.094464 9.459285-14.073571 8.363392",
-    fill: "#FE9100",
-    "p-id": "2865"
-  }),
-  /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
-    d: "M553.714266 853.732863c25.263213-23.071428 45.739106-50.238034 69.214283-74.98214 22.552321-23.417499 43.316606-48.565355 65.003748-72.848033q60.735534-68.003033 121.644103-135.833031c28.493213-31.723213 57.332498-63.100355 85.825711-94.76589q62.465891-69.214283 124.758746-138.947673c28.493213-31.665535 57.332498-63.042676 85.825711-94.76589q61.023926-67.829998 121.701781-135.833031c20.533571-23.071428 41.355534-45.277677 61.946784-68.003033 11.535714-12.400892 22.263928-24.974821 33.395892-37.49107 5.133393 6.286964-1.730357 9.69-4.0375 13.208392q-94.189104 147.080352-189.012672 293.699276Q904.573004 657.625727 679.395869 1007.157858c-2.307143 3.63375-4.787321 7.209821-7.036786 10.901249-4.383571 7.382857-8.8825 8.248035-13.785178 0.461429L553.714266 853.732863",
-    fill: "#FEC300",
-    "p-id": "2866"
-  }),
-  /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
-    d: "M4.498928 9.491643C-5.767857-1.582642 4.0375 0.090036 10.4975 0.090036H373.468737a152.271423 152.271423 0 0 1 142.985173 206.258564c-21.398749 57.678569-45.16232 114.953389-67.829997 172.401244-7.498214 0-12.170178-5.191071-17.303571-9.459285q-95.919461-80.749997-191.954279-160.923209Q130.468924 116.658425 21.168035 25.237892C15.342499 20.277536 10.728214 14.04825 4.498928 9.491643",
-    fill: "#00AEED",
-    "p-id": "2867"
-  }),
-  /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
-    d: "M4.498928 9.491643c18.860892 8.940178 32.64607 24.513392 48.219284 37.548749q198.183564 165.537494 395.905701 331.709452l-78.442855 199.510172-43.085891-66.849462L10.958928 20.623607c-2.307143-3.576071-4.325893-7.440535-6.46-11.131964",
-    fill: "#41CB31",
-    "p-id": "2868"
-  })
-], -1 /* HOISTED */)
-const _hoisted_4 = { class: "nav" }
-const _hoisted_5 = { class: "item" }
-const _hoisted_6 = { class: "item" }
-const _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("svg", {
-  height: "28",
-  width: "28",
-  viewBox: "0 0 16 16",
-  version: "1.1",
-  "aria-hidden": "true",
-  class: "github-icon"
-}, [
-  /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
-    "fill-rule": "evenodd",
-    d: "M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-  })
-], -1 /* HOISTED */)
+const _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_1__.createVNode)("img", {
+  width: "75",
+  src: _markdown_aweAbout_img_logo_png__WEBPACK_IMPORTED_MODULE_0__.default
+}, null, -1 /* HOISTED */)
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [
-    (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [
-      (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" logo "),
-      (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  return ((0,vue__WEBPACK_IMPORTED_MODULE_1__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_1__.createBlock)("div", _hoisted_1, [
+    (0,vue__WEBPACK_IMPORTED_MODULE_1__.createVNode)("div", _hoisted_2, [
+      (0,vue__WEBPACK_IMPORTED_MODULE_1__.createCommentVNode)(" logo "),
+      (0,vue__WEBPACK_IMPORTED_MODULE_1__.createVNode)("a", {
         class: "logo",
         href: _ctx.headerConfig.logo.href
       }, [
-        _hoisted_3,
-        (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", null, (0,vue__WEBPACK_IMPORTED_MODULE_1__.toDisplayString)(_ctx.headerConfig.logo.title), 1 /* TEXT */)
-      ], 8 /* PROPS */, ["href"]),
-      (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" search "),
-      (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("input", {
-        class: "awedoc-search",
-        placeholder: $options.searchPlaceholder
-      }, null, 8 /* PROPS */, ["placeholder"]),
-      (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", _hoisted_4, [
-        (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_5, [
-          (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", {
-            class: "cube lang",
-            onClick: _cache[1] || (_cache[1] = (...args) => ($options.changeLang && $options.changeLang(...args)))
-          }, (0,vue__WEBPACK_IMPORTED_MODULE_1__.toDisplayString)(_ctx.lang), 1 /* TEXT */)
-        ]),
-        (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_6, [
-          (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-            href: _ctx.headerConfig.githubLink,
-            target: "_blank"
-          }, [
-            _hoisted_7
-          ], 8 /* PROPS */, ["href"])
-        ])
-      ])
+        _hoisted_3
+      ], 8 /* PROPS */, ["href"])
     ])
   ]))
 }
@@ -79934,7 +79886,7 @@ _src_index_vue__WEBPACK_IMPORTED_MODULE_0__.default.install = function (Vue) {
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "ninecat-ui:";
+/******/ 		var dataWebpackPrefix = "awe-design:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -80076,7 +80028,7 @@ _src_index_vue__WEBPACK_IMPORTED_MODULE_0__.default.install = function (Vue) {
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkninecat_ui"] = self["webpackChunkninecat_ui"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkawe_design"] = self["webpackChunkawe_design"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();

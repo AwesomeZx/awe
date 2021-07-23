@@ -1,4 +1,4 @@
-(self["webpackChunkninecat_ui"] = self["webpackChunkninecat_ui"] || []).push([["doc_markdown_aweGrid_zh-CN_index_md"],{
+(self["webpackChunkawe_design"] = self["webpackChunkawe_design"] || []).push([["doc_markdown_aweGrid_zh-CN_index_md"],{
 
 /***/ "./doc/markdown/aweGrid/zh-CN/index.md":
 /*!*********************************************!*\
