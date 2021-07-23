@@ -1,0 +1,148 @@
+button{
+  outline:none;
+  background-color: rgb(248, 248, 248);
+  border-radius: 5px;
+  border-style: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.awebutton{
+  overflow:hidden; 
+  min-width: 80px;
+  height: 36px;
+  padding: 0 15px;
+  border-radius: 6px;
+  border: 0;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  line-height: 36px;
+  cursor:pointer;
+  .awebutton-content{
+    display: flex;
+    justify-content: center;
+  }
+  .awebutton-icon{
+    display: inline-block;
+    margin-right: 8px;
+  }
+}
+
+.default{
+  min-width: 80px;
+  height: 36px;
+  color: #575757;
+  &:focus,&:hover{
+    background: #ecf5ff;
+  };
+  &:active{
+    color: #272C36;
+    background: #fff;
+  }
+}
+
+.primary{
+  min-width: 80px;
+  height: 36px;
+  background: #409eff;
+  color: #ffffff;
+  border: none;
+  &:focus,&:hover{
+    background:#66b1ff;
+  };
+}
+
+.link{
+  min-width: 80px;
+  height: 36px;
+  color:#fff ;
+  background: #b8e6fa;
+  border: none;
+  &:focus,&:hover{
+    background: #97dbf8;
+  };
+  &:active{
+    background: #2792BF;;
+  }
+  &:disabled{
+    background: #C2EDFF;
+  }
+}
+
+.successed{
+  min-width: 80px;
+  height: 36px;
+  background: #19be6b;
+  color: #ffffff;
+  border: none;
+  &:focus,&:hover{
+    background:#47cb89;
+  };
+}
+
+.warn{
+  min-width: 80px;
+  height: 36px;
+  background:#ff9900;
+  color: #ffffff;
+  border: none;
+  &:focus,&:hover{
+    background:#ffad33;
+  };
+}
+
+.errored{
+  min-width: 80px;
+  height: 36px;
+  background: #ed4014;
+  color: #ffffff;
+  border: none;
+  &:focus,&:hover{
+    background:#f16643;
+  };
+}
+.awebutton-disabled {
+  background-color: #F7F7FA;
+  cursor: not-allowed;
+  &:focus,&:hover{
+    background-color: #F7F7FA;
+    outline: none;
+  }
+}
+
+.lg{
+  width: 96px;
+  height: 24px;
+  font-size: 16px;
+  padding: 10px 16px;
+  background: #409eff;
+}
+
+.md{
+  width: 80px;
+  height: 36px;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.sm{
+  width: 76px;
+  height: 30px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.xs{
+  width: 64px;
+  height: 24px;
+  font-size: 12px;
+  padding: 2px 8px;
+}
+
+.long{
+  width: 50%;
+  margin-bottom: 10px;
+}
+.awebutton-slot{
+  text-align: center;
+}
